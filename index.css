@@ -1083,11 +1083,13 @@ nav.open ul {
     }
 
     .item-content p {
-        font-size: 10px;
+        font-size: 12px;
+        /* text-align: justify; */
+        /* text-indent: 1rem; */
     }
 
     .descrip-detail-item-content h3 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .details-item-content {
@@ -1138,6 +1140,7 @@ nav.open ul {
     .content2 p {
         line-height: normal;
         color: #062B49;
+        font-size: 12px;
     }
 
     .item-content2 {
@@ -1146,7 +1149,7 @@ nav.open ul {
     }
 
     .item-content2 p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .title-detail-item-content2 img {
@@ -1233,7 +1236,7 @@ nav.open ul {
     .form-contact p,
     .contact-us p,
     .item-footer-content-right h3 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .item-contact-us p,
