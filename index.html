@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script>
+        function goContact() {
+            if (window.innerWidth <= 768) {
+                location.href = '#forResponsive-content3';
+            } else {
+                location.href = '#content3';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./img/icon/Final Logo ADT-01 2.svg" alt="logo" class="logo-header">
+        </a>
+        <nav id="mainMenu">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+
+                <div class="lang-select-inNav" id="langSelectInNav">
+                    <div class="lang-current">
+                        <img src="/img/icon/globe.svg" class="icon-globe">
+                        <img src="/img/icon/US.svg" class="icon-flag">
+                        <span>EN</span>
+                        <img src="/img/icon/Vector.svg" class="icon-arrow">
+                    </div>
+
+                    <div class="lang-options">
+                        <div class="option" data-lang="en">
+                            <img src="/img/icon/US.svg" class="icon-flag"> EN
+                        </div>
+                        <div class="option" data-lang="th">
+                            <img src="/img/icon/TH.svg" class="icon-flag"> TH
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="lang-select" id="langSelect">
+            <div class="lang-current">
+                <img src="/img/icon/globe.svg" class="icon-globe">
+                <img src="/img/icon/US.svg" class="icon-flag">
+                <span>EN</span>
+                <img src="/img/icon/Vector.svg" class="icon-arrow">
+            </div>
+
+            <div class="lang-options">
+                <div class="option" data-lang="en">
+                    <img src="/img/icon/US.svg" class="icon-flag"> EN
+                </div>
+                <div class="option" data-lang="th">
+                    <img src="/img/icon/TH.svg" class="icon-flag"> TH
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img class="backgroud" src="./img/6b7e8994aeda71cdf0e1de712eba94600d45ac87.jpg" alt="Drone Image">
+            <img class="logo-banner" src="./img/icon/Final Logo ADT-01 2.svg" alt="logo" class="logo-banner">
+            <p class="title">Elevate Your <span class="highlight">Perspective</span></p>
+            <p class="detail-banner">Professional drone services for aerial photography, videography, surveying, and
+                inspections. See your
+                world from above with stunning clarity and precision.
+                Our Services</p>
+            <button class="btn-banner" onclick="goContact()">Contact</button>
+            <img class="img-drone-right" src="./img/d3.png" alt="">
+            <img class="img-drone-left" src="./img/d4.png" alt="">
+            <div class="icon-banner">
+                <img class="icon-banner1" src="./img/icon/Social Icons (1).svg" alt="">
+                <img class="icon-banner2" src="./img/icon/Group 239.svg" alt="">
+            </div>
+        </section>
+
+        <div class="content">
+            <div class="item-content">
+                <h2>Leading the Sky with <span class="highlight">Innovation</span></h2>
+                <p>Aerial Dream Tech has been pioneering aerial services since 2019, delivering exceptional results for
+                    clients across industries. Our passion for flight and commitment to excellence drives us to capture
+                    perspectives that inspire and inform.</p>
+                <p>
+                    From real estate showcases to construction monitoring, from cinematic productions to agricultural
+                    surveys, we bring a unique aerial perspective to every project. Our team combines technical
+                    expertise
+                    with creative vision to deliver results that exceed expectations.
+                </p>
+                <hr>
+                <div class="details-item-content">
+                    <div class="group-detail-item-content">
+                        <div class="img-detail-item-content">
+                            <img src="./img/icon/g3021.svg" alt="icon">
+                        </div>
+                        <div class="descrip-detail-item-content">
+                            <h3>Licensed & Insured</h3>
+                            <p>Fully licensed FAA Part 107 certified pilots with comprehensive insurance coverage</p>
+                        </div>
+                    </div>
+
+                    <div class="group-detail-item-content">
+                        <div class="img-detail-item-content">
+                            <img src="./img/icon/group.svg" alt="icon">
+                        </div>
+                        <div class="descrip-detail-item-content">
+                            <h3>Expert Team</h3>
+                            <p>Professional pilots and photographers with years of experience</p>
+                        </div>
+                    </div>
+
+                    <div class="group-detail-item-content">
+                        <div class="img-detail-item-content">
+                            <img src="./img/icon/star.svg" alt="icon">
+                        </div>
+                        <div class="descrip-detail-item-content">
+                            <h3>Newest Technology</h3>
+                            <p>State-of-the-art drones and camera equipment for superior results</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-img">
+                <div class="img-item-content">
+                    <img src="./img/52de464744b7c4b75d1e63b7c469945df0b312c5.jpg" alt="Aerial View">
+                </div>
+            </div>
+        </div>
+
+        <div id="forResponsive-content" class="content">
+            <div class="space-img">
+                <div class="img-item-content">
+                    <img src="./img/52de464744b7c4b75d1e63b7c469945df0b312c5.jpg" alt="Aerial View">
+                </div>
+            </div>
+            <div class="item-content">
+                <h2>Leading the Sky with <span class="highlight">Innovation</span></h2>
+                <p>Aerial Dream Tech has been pioneering aerial services since 2019, delivering exceptional results for
+                    clients across industries. Our passion for flight and commitment to excellence drives us to capture
+                    perspectives that inspire and inform.</p>
+                <p>
+                    From real estate showcases to construction monitoring, from cinematic productions to agricultural
+                    surveys, we bring a unique aerial perspective to every project. Our team combines technical
+                    expertise
+                    with creative vision to deliver results that exceed expectations.
+                </p>
+                <hr>
+                <div class="details-item-content">
+                    <div class="group-detail-item-content">
+                        <div class="img-detail-item-content">
+                            <img src="./img/icon/g3021.svg" alt="icon">
+                        </div>
+                        <div class="descrip-detail-item-content">
+                            <h3>Licensed & Insured</h3>
+                            <p>Fully licensed FAA Part 107 certified pilots with comprehensive insurance coverage</p>
+                        </div>
+                    </div>
+
+                    <div class="group-detail-item-content">
+                        <div class="img-detail-item-content">
+                            <img src="./img/icon/group.svg" alt="icon">
+                        </div>
+                        <div class="descrip-detail-item-content">
+                            <h3>Expert Team</h3>
+                            <p>Professional pilots and photographers with years of experience</p>
+                        </div>
+                    </div>
+
+                    <div class="group-detail-item-content">
+                        <div class="img-detail-item-content">
+                            <img src="./img/icon/star.svg" alt="icon">
+                        </div>
+                        <div class="descrip-detail-item-content">
+                            <h3>Newest Technology</h3>
+                            <p>State-of-the-art drones and camera equipment for superior results</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content2">
+            <h2>Our <span class="highlight">Services</span></h2>
+            <p class="detail-content2">From creative aerial photography to industrial inspections, we deliver
+                comprehensive drone solutions
+                tailored to meet your specific needs with precision and professionalism.
+            </p>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/5adf37b5c712940fc8aa8b83cab8d0bc9553d901.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/Group 247.svg" alt="icon">
+                        <h3>Aerial <span class="highlight">Photography</span></h3>
+                    </div>
+                    <p>Capture stunning high-resolution aerial photographs that showcase your subject from breathtaking
+                        perspectives with professional-grade equipment.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            4K Ultra HD Resolution
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Professional Color Grading
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Same Day Delivery
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Multiple Angles
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconVDO.svg" alt="icon">
+                        <h3>Aerial <span class="highlight">Videography</span></h3>
+                    </div>
+                    <p>Create compelling cinematic aerial videos with smooth movements, professional stabilization, and
+                        expert post-production editing.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            4K Video Recording
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            3-Axis Gimbal Stabilization
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Multiple Video Formats
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Cinematic Color Grading
+                        </p>
+                    </div>
+                </div>
+                <div class="img-content2">
+                    <img src="./img/135bfc9005a701df33731fd45f47a70e9372f61f.jpg" alt="Drone Photography">
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/05ed9c5884f7cda7b657a3f4cb6b8509ee2e4398.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconHouse.svg" alt="icon">
+                        <h3>Real <span class="highlight">Estate Marketing</span></h3>
+                    </div>
+                    <p>Elevate property listings with stunning aerial photography and videography that showcases
+                        properties from their best angles.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Virtual Tour Creation
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Golden Hour Photography
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            MLS Ready Images
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            360° Property Views
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconCondo.svg" alt="icon">
+                        <h3>Construction <span class="highlight">Monitoring</span></h3>
+                    </div>
+                    <p>Comprehensive construction progress documentation with regular aerial surveys, time-lapse
+                        creation, and detailed reporting.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Weekly Progress Reports
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Time-lapse Photography
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            3D Site Mapping
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Safety Compliance Monitoring
+                        </p>
+                    </div>
+                </div>
+                <div class="img-content2">
+                    <img src="./img/b57e5ca1cf14be518098fbcd19bb332c16df895d.jpg" alt="Drone Photography">
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/4307f2938d5042b72b65f793287ba114312375dc.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconlocation.svg" alt="icon">
+                        <h3><span class="highlight">Surveying</span> & <span class="highlight">Mapping</span></h3>
+                    </div>
+                    <p>Precision aerial surveying and detailed topographical mapping with GPS accuracy and
+                        CAD-compatible deliverables.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            GPS Precision Mapping
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            CAD Compatible Files
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Volume Calculations
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Contour Line Generation
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconGraph.svg" alt="icon">
+                        <h3>Infrastructure <span class="highlight">Inspections</span></h3>
+                    </div>
+                    <p>Safe and efficient inspection of hard-to-reach infrastructure with thermal imaging and
+                        comprehensive assessment reports.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Thermal Imaging Analysis
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Condition Assessment Reports
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Risk Assessment
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Safety Standards Compliance
+                        </p>
+                    </div>
+                </div>
+                <div class="img-content2">
+                    <img src="./img/94d196cb765290560d4fc21be51951cf9a522594.jpg" alt="Drone Photography">
+                </div>
+            </div>
+        </div>
+
+        <div id="forResponsive-content2" class="content2">
+            <h2>Our <span class="highlight">Services</span></h2>
+            <p class="detail-content2">From creative aerial photography to industrial inspections, we deliver
+                comprehensive drone solutions
+                tailored to meet your specific needs with precision and professionalism.
+            </p>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/5adf37b5c712940fc8aa8b83cab8d0bc9553d901.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/Group 247.svg" alt="icon">
+                        <h3>Aerial <span class="highlight">Photography</span></h3>
+                    </div>
+                    <p>Capture stunning high-resolution aerial photographs that showcase your subject from breathtaking
+                        perspectives with professional-grade equipment.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            4K Ultra HD Resolution
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Professional Color Grading
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Same Day Delivery
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Multiple Angles
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/135bfc9005a701df33731fd45f47a70e9372f61f.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconVDO.svg" alt="icon">
+                        <h3>Aerial <span class="highlight">Videography</span></h3>
+                    </div>
+                    <p>Create compelling cinematic aerial videos with smooth movements, professional stabilization, and
+                        expert post-production editing.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            4K Video Recording
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            3-Axis Gimbal Stabilization
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Multiple Video Formats
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Cinematic Color Grading
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/05ed9c5884f7cda7b657a3f4cb6b8509ee2e4398.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconHouse.svg" alt="icon">
+                        <h3>Real <span class="highlight">Estate Marketing</span></h3>
+                    </div>
+                    <p>Elevate property listings with stunning aerial photography and videography that showcases
+                        properties from their best angles.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Virtual Tour Creation
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Golden Hour Photography
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            MLS Ready Images
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            360° Property Views
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/b57e5ca1cf14be518098fbcd19bb332c16df895d.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconCondo.svg" alt="icon">
+                        <h3>Construction <span class="highlight">Monitoring</span></h3>
+                    </div>
+                    <p>Comprehensive construction progress documentation with regular aerial surveys, time-lapse
+                        creation, and detailed reporting.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Weekly Progress Reports
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Time-lapse Photography
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            3D Site Mapping
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Safety Compliance Monitoring
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/4307f2938d5042b72b65f793287ba114312375dc.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconlocation.svg" alt="icon">
+                        <h3><span class="highlight">Surveying</span> & <span class="highlight">Mapping</span></h3>
+                    </div>
+                    <p>Precision aerial surveying and detailed topographical mapping with GPS accuracy and
+                        CAD-compatible deliverables.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            GPS Precision Mapping
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            CAD Compatible Files
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Volume Calculations
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Contour Line Generation
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-content2">
+                <div class="img-content2">
+                    <img src="./img/94d196cb765290560d4fc21be51951cf9a522594.jpg" alt="Drone Photography">
+                </div>
+                <div class="detail-item-content2">
+                    <div class="title-detail-item-content2">
+                        <img src="./img/icon/iconGraph.svg" alt="icon">
+                        <h3>Infrastructure <span class="highlight">Inspections</span></h3>
+                    </div>
+                    <p>Safe and efficient inspection of hard-to-reach infrastructure with thermal imaging and
+                        comprehensive assessment reports.</p>
+                    <hr>
+                    <div class="item-in-detail-item-content2">
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Thermal Imaging Analysis
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Condition Assessment Reports
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Risk Assessment
+                        </p>
+                        <p class="icon-check">
+                            <img src="./img/icon/badge-check.svg" alt="icon check">
+                            Safety Standards Compliance
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content3" class="content3">
+            <div class="form-contact">
+                <h4>Send me a massage</h4>
+                <p>Fill out the form below and lill get back to you as soon as possible.</p>
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="Your Name"><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" placeholder="eternity@example.com"><br>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" placeholder="Your Phone number"><br>
+                    <label for="message">Message</label><br>
+                    <textarea placeholder="Enter Your Massage"></textarea><br>
+                    <button class="btn-form-contact" type="submit">Sand Message</button>
+                </form>
+            </div>
+            <div class="contact-us">
+                <h4>CONTACT US</h4>
+                <p>Got doubts? Reach out to us and we will help you out with your queries. You can ask us anything, we
+                    are available for you.</p>
+                <hr>
+                <div class="group-item-contact-us">
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Social Icons.svg" alt="">
+                        <p>AERIAL DREAM TECH</p>
+                    </div>
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Frame.svg" alt="">
+                        <p>aerialdreamtech@edmcompany.co.th</p>
+                    </div>
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Layer_1.svg" alt="">
+                        <p>02 077 6029 ต่อ 14</p>
+                    </div>
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Layer_x0020_1.svg" alt="">
+                        <p>adt-service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="forResponsive-content3" class="content3">
+            <div class="contact-us">
+                <h4>CONTACT US</h4>
+                <p>Got doubts? Reach out to us and we will help you out with your queries. You can ask us anything, we
+                    are available for you.</p>
+                <hr>
+                <div class="group-item-contact-us">
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Social Icons.svg" alt="">
+                        <p>AERIAL DREAM TECH</p>
+                    </div>
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Frame.svg" alt="">
+                        <p>aerialdreamtech@edmcompany.co.th</p>
+                    </div>
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Layer_1.svg" alt="">
+                        <p>02 077 6029 ต่อ 14</p>
+                    </div>
+                    <div class="item-contact-us">
+                        <img src="./img/icon/Layer_x0020_1.svg" alt="">
+                        <p>adt-service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-contact">
+                <h4>Send me a massage</h4>
+                <p>Fill out the form below and lill get back to you as soon as possible.</p>
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="Your Name"><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" placeholder="eternity@example.com"><br>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" placeholder="Your Phone number"><br>
+                    <label for="message">Message</label><br>
+                    <textarea placeholder="Enter Your Massage"></textarea><br>
+                    <button class="btn-form-contact" type="submit">Sand Message</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-content-contact">
+            <div class="item-footer-content-left">
+                <h4>Contact Us</h4>
+                <p class="p-footer-content-left">AERIAL DREAM TECH CO., LTD. </p>
+                <p class="address-footer">250/48, SOI RAMKHAMHAENG 112, RAMKHAMHAENG, SA PHAN SUNG, SA PHAN SUNG,
+                    BANGKOK 10240</p>
+                <p class="status-footer"><img src="./img/icon/Ellipse 115.svg" alt=""> Available For Work</p>
+            </div>
+            <div class="item-footer-content-right">
+                <h3>FOLLOW ME</h3>
+                <div class="icon-item-footer-content-right">
+                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-content-Logo">
+            <img src="./img/imagelogo1.png" alt="">
+            <img src="./img/imagelogo2.png" alt="">
+            <img src="./img/imagelogo3.png" alt="">
+            <img src="./img/imagelogo4.png" alt="">
+            <img src="./img/imagelogo5.png" alt="">
+        </div>
+        <div class="footer-content-coppyright">
+            <p>COPYRIGHT <sapan class="highlight">©</sapan> 2023 EDM HOLDING ALL RIGHTS RESERVED.</p>
+            <p>Terms Of use | Privacy Policy |<a href='#content3'> Contact Us</a></p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mainMenu = document.getElementById('mainMenu');
+
+        hamburger.addEventListener('click', () => {
+            mainMenu.classList.toggle('open');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
